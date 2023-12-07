@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+ortools = "*"
+ipykernel = "*"
+pandas = "*"
+tqdm = "*"
+
+[dev-packages]
+autopep8 = "*"
+jupyterlab = "*"
+folium = "*"
+bokeh = "*"
+
+[requires]
+python_version = "3.11"
